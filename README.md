@@ -1,8 +1,8 @@
 # Piranha Core CMS with MySQL as Database
 
-This is a simple project demonstrating how to use a MySQL database instead of SQLLite with the Piranha Core CMS in its version `2.2.7.2`.
+This is a simple project demonstrating how to use a MySQL database instead of SQLLite with the Piranha Core CMS in its version `2.2.7.2`. The tutorial was created as I was unable to find a guide how to use MySQL with the CMS - so here we are.
 
-The motivaton behind is not that SQLite is unpreferrable - it is simply that a hosting provider's default database type could be MySQL which might be provided with the luxory of automated backups and default encryptions which saves quite some maintenace and securing efforts.
+The motivaton behind using MySQL is not that the default SQLite is unpreferrable - it is simply that a hosting provider's default database type could be MySQL which might be provided with the luxory of automated backups and default encryptions which saves quite some maintenace and securing efforts.
 
 ## Dev Stack
 
@@ -68,7 +68,7 @@ dotnet restore
 
 Now that the project is setup we can continue to use MySQL. 
 
-    **Note:** **Do not** call `dontnet run` yet.
+> Note: **Do not** call `dontnet run` yet.
 
 ### EF Core with MySQL
 
