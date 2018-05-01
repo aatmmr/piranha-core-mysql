@@ -24,7 +24,10 @@ namespace piranha_core_mysql
                 config.ModelBinderProviders.Insert(0, new Piranha.Manager.Binders.AbstractModelBinderProvider());
             });
             services.AddDbContext<Db>(options =>
-                options.UseSqlite("Filename=./piranha.db"));            
+                options.UseMySql("server=localhost;port=3306;database=piranha-mysql;uid=root;password=password"));
+                /* That's the default line form the template
+                options.UseSqlite("Filename=./piranha.db"));
+                */            
             services.AddSingleton<IStorage, FileStorage>();
             services.AddSingleton<IImageProcessor, ImageSharpProcessor>();
             services.AddScoped<IDb, Db>();
