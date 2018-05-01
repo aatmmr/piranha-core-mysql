@@ -17,5 +17,6 @@
     <PackageReference Include="Piranha.ImageSharp" Version="4.3.0-rc1" />
     <PackageReference Include="Piranha.Local.FileStorage" Version="4.3.0" />
     <PackageReference Include="Piranha.Manager" Version="4.3.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
   </ItemGroup>
 </Project>
