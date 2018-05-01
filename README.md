@@ -38,7 +38,9 @@ Install MySQL and MySQL Workbench and create a new Scheme on your local machine.
 
 Now that the Schema is set up get the database connection properties as described above resulting is a connection string, such as
 
+```csharp
 "server=localhost;port=3306;database=piranha-mysql;uid=root;password=rootpassword"
+```
 
 Keep that string in mind for later and make sure that the MySQL server is running (see System Preferences > MySQL).
 
