@@ -46,6 +46,8 @@ Keep that string in mind for later and make sure that the MySQL server is runnin
 
 ### Project Setup
 
+> **Note:** **Do not** call `dontnet run` yet - call it after the setup of EF Core with MySQL was finished.
+
 Set up the project as you would normally do, either by your own or use the project template. In this tutorial, we will use the template that comes with Piranha Core.
 
 If you want to use the template make sure it is installed
@@ -69,8 +71,6 @@ dotnet restore
 ```
 
 Now that the project is setup we can continue to use MySQL. 
-
-    **Note:** **Do not** call `dontnet run` yet.
 
 ### EF Core with MySQL
 
