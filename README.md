@@ -1,6 +1,6 @@
 # Piranha Core CMS with MySQL as Database
 
-This is a simple project demonstrating how to use a MySQL database instead of SQLLite with the Piranha Core CMS in its version `2.2.7.2`.
+This is a simple project demonstrating how to use a MySQL database instead of SQLLite with the (Piranha Core CMS)[https://github.com/piranhacms/piranha.core] in its version `2.2.7.2`.
 
 The motivaton behind is not that SQLite is unpreferrable - it is simply that a hosting provider's default database type could be MySQL which might be provided with the luxory of automated backups and default encryption which saves quite some maintenace and securing efforts.
 
