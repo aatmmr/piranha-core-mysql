@@ -1,3 +1,5 @@
+> This repo is archived as the MySQL database option is directly integrated into Piranha via [`Piranha.Data.EF.MySql`](https://github.com/PiranhaCMS/piranha.core/tree/master/data/Piranha.Data.EF.MySql) and [`Piranha.AspNetCore.Identity.MySQL`](https://github.com/PiranhaCMS/piranha.core/tree/master/identity/Piranha.AspNetCore.Identity.MySQL).
+
 # Piranha Core CMS with MySQL as Database
 
 This is a simple project demonstrating how to use a MySQL database instead of SQLite with the [Piranha Core CMS](https://github.com/piranhacms/piranha.core) in its version `Version 4.3.1`.
